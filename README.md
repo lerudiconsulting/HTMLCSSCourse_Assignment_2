@@ -1,2 +1,6 @@
-# HTMLCSSCourse_Assignment_2
-HTML CSS Course Assignment 1
+# HTML CSS Course Assignment 2
+Assignment 2 of the HMTL and CSS course. The idea of this assignment was to create a quiz using HTML5, JavaScript and CSS. In order to make the assignment more advanced, the questions are loaded dynamically into the questionnaire from a JSON file. The JSON file provides the user the possibility to define any amount of questions and answers that belong to each question, as well as define what type of question each question is (i.e.: single choice or multiple choice question types). The JSON also contains the value of each answer, whether it be true of false, so as to be able to automatically summarize the score of the quiz as the user clicks in any of the checkboxes or radiobuttons.
+
+The score calculation retrieves the maximum score through iterating the collection of questions. In order to calculate the score out of the max that the user has when clicking through the quiz, the score calculator traverses through all checkboxes and radiobuttons, groups them up and reads the correct values of each and compares what has been selected against the correct answers defined in the fields.
+
+Styling has been done through means of pure CSS rather than through the use of a library such as Bootstrap or Material UI.
