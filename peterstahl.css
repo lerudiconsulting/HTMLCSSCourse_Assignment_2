@@ -1,0 +1,132 @@
+/* General Styles Start */
+body {
+    text-align: center;
+    font-family: Arial;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #51b2df;
+    margin-top: 0px;
+}
+/* General Styles End */
+
+/* Navigation Bar Start */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1em;
+    margin: 0;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover, .navbar a:focus {
+    color: #51b2df;
+}
+/* Navigation Bar End */
+
+/* Content Start */
+.mandatoryfield {
+    color: red;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px 20px 20px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-form {   
+    text-align: left;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 800px;
+    box-shadow: 2px 2px #757474;
+    border: 1px solid #757474;
+    border-radius: 5px;
+    padding: 10px 20px 20px 20px;
+}
+
+.textinput {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    box-shadow: 2px 2px #757474;
+    border: 1px solid #757474;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+label {
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.questioncolumn {
+    vertical-align: top;
+    width: 160px;
+}
+
+button {
+    background-color: #51b2df;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 2px 2px #757474;
+    border: 1px solid #757474;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+}
+
+button:hover {
+    background-color: #333;
+}
+/* Content End */
+
+/* Tablet Styling Start */
+@media (max-width: 768px) {
+    #content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+        align-items: center;
+    }
+
+    input, textarea {
+        max-width: 90%;
+    }
+}
+/* Tablet Styling End */

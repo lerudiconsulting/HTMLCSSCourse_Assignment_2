@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML & CSS - Assignment 2">
+    <title>HTML & CSS - Assignment 2</title>
+    <link rel="stylesheet" href="peterstahl.css">
+    <script src="peterstahl.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar Start -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#biography" onclick="showSection('biography')">HTML & CSS - Assignment 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navigation Bar End -->
+
+    <!-- Quiz Form Start -->
+    <section class="contact-form">
+        <h1>Quiz form</h1>
+        <p>Answer the fascinating quiz in the form below!</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">      
+        <table>
+            <tr>
+                <td><label for="firstname">First Name:</label><span class="mandatoryfield">*</span></td>
+                <td><input class="textinput" type="text" id="firstname" pattern="[A-Za-z]+" title="Only letters allowed" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Sirname:</label><span class="mandatoryfield">*</span></td>
+                <td><input class="textinput" type="text" id="lastname" pattern="[A-Za-z]+" title="Only letters allowed" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your Email:</label><span class="mandatoryfield">*</span></td>
+                <td colspan="3"><input class="textinput" autocomplete="email" type="email" id="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Please enter a valid e-mail address" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <br/>
+                    <hr />
+                    <div id="questions"></div>
+                    <hr />
+                    <span id="score">Your Score will appear here once you start answering the quiz</span>
+                    <hr />
+                </td>              
+            </tr>
+            <tr>
+                <td class="questioncolumn"><label for="message">What is on your <br/>mind today?</label></td>
+                <td colspan="3"><textarea class="textinput" id="message" name="message" rows="10" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4"><button type="submit">Send Message</button></td>
+            </tr>
+        </table>
+        </form>
+    </section>
+    <!-- Quiz Form End -->
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+    "questions": [
+        {
+            "type": "single",
+            "id": 1,
+            "question": "At what school did Harry Potter study?",
+            "answers": [
+                {"id": 1, "text": "Stockholm", "correct": false},
+                {"id": 2, "text": "Gryffindor", "correct": false},
+                {"id": 3, "text": "Hogwarts", "correct": true},
+                {"id": 4, "text": "Slytherine", "correct": false}
+            ]
+        },{
+            "type": "single",
+            "id": 2,
+            "question": "Who is the boy who lived?",
+            "answers": [
+                {"id": 5, "text": "Harry Potter", "correct": true},
+                {"id": 6, "text": "Hermoine Granger", "correct": false},
+                {"id": 7, "text": "Ron Weasley", "correct": false},
+                {"id": 8, "text": "Voldemort", "correct": false},
+                {"id": 9, "text": "Dumbledore", "correct": false},
+                {"id": 10, "text": "Led Zeppelin", "correct": false},
+                {"id": 11, "text": "George Lucas", "correct": false}
+            ]
+        },
+        {
+            "type": "multiple",
+            "id": 3,
+            "question": "Who are nice?",
+            "answers": [
+                {"id": 12, "text": "Dobby", "correct": true},
+                {"id": 13, "text": "Harry", "correct": true},
+                {"id": 14, "text": "Dumbledore", "correct": true},
+                {"id": 15, "text": "Voldemort", "correct": false}
+            ]
+        },
+        {
+            "type": "single",
+            "id": 4,
+            "question": "What is the sirname of Vernon?",
+            "answers": [
+                {"id": 16, "text": "Dursley", "correct": true},
+                {"id": 17, "text": "Jimminiebob", "correct": false},
+                {"id": 18, "text": "McGonagall", "correct": false},
+                {"id": 19, "text": "Smith", "correct": false}
+            ]
+        },
+        {
+            "type": "multiple",
+            "id": 5,
+            "question": "Which of the following are spells?",
+            "answers": [
+                {"id": 20, "text": "Wingardium Leviosaaah", "correct": true},
+                {"id": 21, "text": "Avada Kedavra", "correct": true},
+                {"id": 22, "text": "Hokus pocus", "correct": false},
+                {"id": 23, "text": "Boom", "correct": false}
+            ]
+        }
+    ]
+}
