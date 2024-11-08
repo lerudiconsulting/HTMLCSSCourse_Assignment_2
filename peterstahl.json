@@ -3,6 +3,7 @@
         {
             "type": "single",
             "id": 1,
+            "mandatory": true,
             "question": "At what school did Harry Potter study?",
             "answers": [
                 {"id": 1, "text": "Stockholm", "correct": false},
@@ -13,6 +14,7 @@
         },{
             "type": "single",
             "id": 2,
+            "mandatory": false,
             "question": "Who is the boy who lived?",
             "answers": [
                 {"id": 5, "text": "Harry Potter", "correct": true},
@@ -27,6 +29,7 @@
         {
             "type": "multiple",
             "id": 3,
+            "mandatory": false,
             "question": "Who are nice?",
             "answers": [
                 {"id": 12, "text": "Dobby", "correct": true},
@@ -38,6 +41,7 @@
         {
             "type": "single",
             "id": 4,
+            "mandatory": false,
             "question": "What is the sirname of Vernon?",
             "answers": [
                 {"id": 16, "text": "Dursley", "correct": true},
@@ -49,6 +53,7 @@
         {
             "type": "multiple",
             "id": 5,
+            "mandatory": true,
             "question": "Which of the following are spells?",
             "answers": [
                 {"id": 20, "text": "Wingardium Leviosaaah", "correct": true},
